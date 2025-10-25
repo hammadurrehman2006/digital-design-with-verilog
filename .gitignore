@@ -1,0 +1,98 @@
+# -------------------------------------------------
+# Verilog / SystemVerilog / HDL Project .gitignore
+# -------------------------------------------------
+
+# Simulation output files
+*.vcd
+*.vvp
+*.wlf
+*.asdb
+*.asdb.lock
+*.vpd
+*.fsdb
+
+# Compilation and log files
+*.log
+*.jou
+*.lst
+*.out
+*.err
+*.rpt
+*.txt~
+*.bak
+*.tmp
+*.swp
+*.dmp
+*.db
+
+# Vivado / Xilinx
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.xpr
+*.xsa
+*.xpe
+*.xdc
+*.xci
+*.xise
+*.xmsgs/
+*.str
+*.zip
+*.tar.gz
+*.csv
+*.xml
+
+# Quartus / Intel FPGA
+db/
+incremental_db/
+output_files/
+simulation/
+*.qpf
+*.qsf
+*.sof
+*.pof
+*.smsg
+*.summary
+
+# Synopsys / Cadence / Mentor
+*.syn
+*.mif
+*.sdf
+*.svf
+*.ucdb
+work/
+simv*
+csrc/
+INCA_libs/
+*.vdb/
+
+# Icarus Verilog / GTKWave
+*.vvp
+*.vcd
+*.lxt
+*.lxt2
+*.ghw
+*.gtkw
+*.fst
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.bak
+*.swp
+*.swo
+*.tmp
+*.lock
+*.user
+
+# Project-specific
+build/
+bin/
+obj/
